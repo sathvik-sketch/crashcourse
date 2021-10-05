@@ -1,0 +1,1 @@
+const dbURI = "mongodb+srv://sathvik:test1234@cluster0.6vhzi.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";

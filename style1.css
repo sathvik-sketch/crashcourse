@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("images/bled-2608425_1920.jpg");
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+.showcase.active {
+  right: 300px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover {
+  color: #03a9f4;
+}
+
+button {
+  background-color: #1da1f2;
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 300px;
+  margin: 10px 40px 0px 40px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.logo {
+  background-color: hsl(157, 89%, 53%);
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  width: 150px;
+  margin: 10px 40px 0px 40px;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
